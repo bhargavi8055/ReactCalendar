@@ -1,0 +1,34 @@
+.react-calendar{
+  background: #173434 !important;
+  color: darkgray;
+  }
+  .react-calendar__tile {
+    background: #173434 !important;
+    color: darkgray;
+  }
+  .react-calendar__tile--active{
+    background: darkgray !important;
+    color: #173434 !important;
+  }
+  .react-calendar__month-view__days__day--weekend{
+  color: darkgray !important;
+  }
+  
+  .react-calendar__navigation__label__labelText{
+    color: darkgray ;
+  }
+  .react-calendar__navigation__arrow{
+    display: none;
+  } 
+  abbr[title] {
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .react-calendar__month-view__days__day--neighboringMonth{
+    visibility: hidden;
+  }
+  
+  
+  .react-calendar__navigation__label__labelText:hover{
+    color: black !important;
+  }
